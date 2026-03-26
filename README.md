@@ -13,3 +13,14 @@ Reimplementation of the AIUTA embodied navigation system, replacing the original
 ### 2. [CoIN-Bench Evaluation — Benchmarking and Improving Results via Prompt Engineering](AI-Project---Improving-CoIN--main/EVAL_README.md)
 
 Evaluation pipeline for the CoIN-Bench benchmark, focused on improving results through prompt engineering techniques. The system orchestrates vision and language models (Qwen2.5-Coder, LLaMA-3, GroundingDINO, LLaVA-NeXT) distributed across four GPUs via SLURM, all running locally at zero API cost.
+
+---
+
+## Documentation
+
+For detailed information on each project, please refer to their respective READMEs:
+
+| Project | README Location |
+|---------|----------------|
+| AIUTA-VLM-R1 | [`AIUTA-VLM-R1-main/README.md`](AIUTA-VLM-R1-main/README.md) |
+| CoIN-Bench Evaluation | [`AI-Project---Improving-CoIN--main/EVAL_README.md`](AI-Project---Improving-CoIN--main/EVAL_README.md) |
