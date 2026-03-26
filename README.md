@@ -14,9 +14,9 @@ Reimplementation of the AIUTA embodied navigation system, replacing the original
 
 Evaluation pipeline for the CoIN-Bench benchmark, focused on improving results through prompt engineering techniques. The system orchestrates vision and language models (Qwen2.5-Coder, LLaMA-3, GroundingDINO, LLaVA-NeXT) distributed across four GPUs via SLURM, all running locally at zero API cost.
 
-### 3. [Fine-tuning Experiments — LLaVA QLoRA on IDKVQA & COCO](AI-Project---Improving-CoIN--main/finetuning_experiments/)
+### 3. [Fine-tuning Experiments — LLaVA QLoRA on IDKVQA, COCO & HouseVQA](AI-Project---Improving-CoIN--main/finetuning_experiments/)
 
-Fine-tuning of LLaVA-1.6 (Mistral-7B) using QLoRA (4-bit) on a mix of COCO/VQAv2 (general VQA) and IDKVQA (task-specific uncertainty-aware yes/no/idk) datasets. The pipeline includes data augmentation (text template variations + geometric/photometric image transforms), image-hash-based splits to prevent data leakage, soft labels from human vote distributions, cosine scheduling with early stopping, and tau search for Effective Reliability (ER) evaluation as defined in the AIUTA paper. Contains both a standalone Python script and a Jupyter notebook.
+Fine-tuning of LLaVA-1.6 (Mistral-7B) using QLoRA (4-bit) for uncertainty-aware VQA (Yes/No/IDK) as used in the AIUTA pipeline. Two mixing strategies are explored: **COCO/VQAv2** (general-domain) and **HouseObj_VQA** (indoor household objects, closer to the navigation domain), both mixed with the small IDKVQA dataset. The pipeline includes data augmentation (text template variations + geometric/photometric image transforms), image-hash-based splits to prevent data leakage, soft labels from human vote distributions, cosine scheduling with early stopping, and tau search for Effective Reliability (ER) evaluation as defined in the AIUTA paper. Contains a standalone Python script and two Jupyter notebooks.
 
 ---
 
