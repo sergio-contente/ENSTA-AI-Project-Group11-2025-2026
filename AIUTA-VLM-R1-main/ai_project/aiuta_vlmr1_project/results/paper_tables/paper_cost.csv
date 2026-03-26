@@ -1,0 +1,9 @@
+mode,avg_num_model_calls,avg_num_detector_calls,avg_num_questioner_calls,avg_num_trigger_calls,avg_num_questions_asked,avg_num_kg_nodes,avg_total_latency_sec,avg_detector_latency_sec
+kg,2,1,0,0,1,2.2669,3.5369,3.2387
+kg_threshold,2,1,0,0,1,2.7809,3.9379,3.4881
+raw,1,0,0,0,1,,0.3029,0.0
+raw_two_pass,3,1,0,0,2,,4.2051,3.2463
+threshold,1,0,0,0,1,,0.2793,0.0
+two_pass_kg,3,1,1,0,1,10.8546,5.2768,3.1284
+two_pass_kg_entropy,3,1,1,0,1,10.8546,5.3639,3.1828
+two_pass_kg_relaxed,3,1,1,0,1,10.8546,5.431,3.2229

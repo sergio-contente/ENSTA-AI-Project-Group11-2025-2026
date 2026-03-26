@@ -1,0 +1,74 @@
+[
+  {
+    "mode": "kg",
+    "overclaim_rate_pct": 6.85,
+    "underclaim_rate_pct": 91.01,
+    "uncertain_when_uncertain_pct": 93.15,
+    "certain_when_certain_pct": 8.99,
+    "phi_c1_pct": 28.69,
+    "phi_c05_pct": 30.38
+  },
+  {
+    "mode": "kg_threshold",
+    "overclaim_rate_pct": 5.48,
+    "underclaim_rate_pct": 92.42,
+    "uncertain_when_uncertain_pct": 94.52,
+    "certain_when_certain_pct": 7.58,
+    "phi_c1_pct": 29.68,
+    "phi_c05_pct": 30.88
+  },
+  {
+    "mode": "raw",
+    "overclaim_rate_pct": 54.11,
+    "underclaim_rate_pct": 20.51,
+    "uncertain_when_uncertain_pct": 45.89,
+    "certain_when_certain_pct": 79.49,
+    "phi_c1_pct": 21.71,
+    "phi_c05_pct": 37.65
+  },
+  {
+    "mode": "raw_two_pass",
+    "overclaim_rate_pct": 66.44,
+    "underclaim_rate_pct": 11.8,
+    "uncertain_when_uncertain_pct": 32.88,
+    "certain_when_certain_pct": 87.92,
+    "phi_c1_pct": 11.16,
+    "phi_c05_pct": 31.27
+  },
+  {
+    "mode": "threshold",
+    "overclaim_rate_pct": 23.97,
+    "underclaim_rate_pct": 51.4,
+    "uncertain_when_uncertain_pct": 76.03,
+    "certain_when_certain_pct": 48.6,
+    "phi_c1_pct": 32.87,
+    "phi_c05_pct": 40.54
+  },
+  {
+    "mode": "two_pass_kg",
+    "overclaim_rate_pct": 32.19,
+    "underclaim_rate_pct": 55.9,
+    "uncertain_when_uncertain_pct": 67.81,
+    "certain_when_certain_pct": 44.1,
+    "phi_c1_pct": 24.1,
+    "phi_c05_pct": 33.17
+  },
+  {
+    "mode": "two_pass_kg_entropy",
+    "overclaim_rate_pct": 42.47,
+    "underclaim_rate_pct": 37.64,
+    "uncertain_when_uncertain_pct": 57.53,
+    "certain_when_certain_pct": 62.36,
+    "phi_c1_pct": 23.9,
+    "phi_c05_pct": 36.25
+  },
+  {
+    "mode": "two_pass_kg_relaxed",
+    "overclaim_rate_pct": 55.48,
+    "underclaim_rate_pct": 24.16,
+    "uncertain_when_uncertain_pct": 44.52,
+    "certain_when_certain_pct": 75.84,
+    "phi_c1_pct": 19.12,
+    "phi_c05_pct": 35.06
+  }
+]

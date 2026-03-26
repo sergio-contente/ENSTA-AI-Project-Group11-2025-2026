@@ -1,0 +1,24 @@
+[project]
+name = "aiuta-vlmr1"
+version = "0.1.0"
+description = "Uncertainty-aware VLM-R1 + KG; primary offline benchmark IDKVQA"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "numpy>=1.24",
+    "torch>=2.0",
+    "transformers>=4.45",
+    "datasets>=2.14",
+    "pillow>=10.0",
+    "qwen-vl-utils",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["aiuta_vlmr1*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

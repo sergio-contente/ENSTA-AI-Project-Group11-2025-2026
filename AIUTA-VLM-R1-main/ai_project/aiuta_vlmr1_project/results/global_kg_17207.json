@@ -1,0 +1,3478 @@
+{
+  "version": 1,
+  "merge_iou_threshold": 0.5,
+  "merge_timestep_window": 1,
+  "nodes": [
+    {
+      "obj_id": "scene_001",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "e7eebb948c3d098bdef9ec6e9bff7e009ce8fc41e4695faa0f515c718bcd6521",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_002",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "c5b3a96d3add24c0eddf8b282691f22e80d49895c26272ef730d3bb4d7ddd3e8",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_003",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "3f8f95a587804093aee78a100db2e416d4a4639b819926393021490cd79fdcad",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_004",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "2a471a601840c34a6e0a7b3d130c280daaf5bf84437f57b55abef307a21304b4",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_005",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "1f02ea08ee690425f6265ec17503ed3e979cd1322a27987d7be0f8d05cf30b1b",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "couch",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "bed",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "couch",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_006",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "5967ffd1e7a763ffa2bcfa1d932844ff34052f274c30c855fe239f46996cd69f",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_007",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6e385fd588279602ac21daaad7882211990902700c1e9400514b956d97f03f19",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_008",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "af6c4764641d7aed5a2d108e79ebb6e71746271add69540ae3614feb70fe47e7",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wood",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "above",
+          "reference": "countertop",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "countertop",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "unknown",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_009",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "7210f7aeddb39f38747c8d26551bebec5de5c2137b16a32a933d1b9da0ad3ab4",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "vanity",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "vanity",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "vanity features a light switch and an electrical outlet",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_010",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "8b10f876ce94f8f9cb85f9349ea03de52aaf20141fe4f4e9768696d55d090335",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_011",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "7c5cef418a1b772901e108efa4069bfdde819df0f734d40071d16199364af9a4",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_012",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "012fdffcc538af9dd7fc4cc732bb056de858ce4642a6461925ff4ee8f2fcc277",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "laptop",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "right_of",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "this furniture",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "a closed book or notebook",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_013",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "f8faa7237aee8c0cdcf8559e9b287ba0588fc0666a98cf76860a2ccb71f4679e",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_014",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "4896d89f6118a4a9081717f47bb8b4b7801b64865214353c9a10ced407c4ee3c",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_015",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6a8e012e3b1838e26dcc982b9ce98731bdd64a8dc3b1dcbb00db0fd721862bfa",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_016",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "8ba1a336dd765338310afd09622bc73d420c1888253531690424b93901b5b689",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "white",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "metal",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "fireplace",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "right_of",
+          "reference": "fireplace",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "it reflecting part of the room",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_017",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "87ee8d4508922058429c180878c3672817c9d8d79fb0a333ecb155d2a7582a82",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "near",
+          "reference": "door",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "cabinet",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_018",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "0ec302728c11013397f14eab43ff19dfa6444f8f1ea1dda2d79f6a75e64d1c57",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "light",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "table",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_019",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "f10c3338f4a71ff0d96156d307443eff8e8f459a3e38031cb44404b9e5133d16",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "cabinet",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "cabinet",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_020",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "7909d1e4859f6ad543717b3aeb62cd3b2de0215db3ea3f1a58e43a45f85c7399",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "white",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "tv",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "armchair",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "in_front_of",
+          "reference": "tv",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_021",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "66e701f2b576333706efea610398efa27b1baf89174f963d48d054aada19db89",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_022",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "392e8b26478d40480d618c85beb4e28915e5bb4e652a691d25a7285f5134d422",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_023",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "4efcc8f1faeea2a0ef504c01ebca29d9694d292a0abad4b905b0b2e43ce7c7fc",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_024",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "408767d839d16bb5965e1bdee3e1aa441d74d0edb8c8fa9a1e22842616ce6cdc",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_025",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "2f4530d36bc4cbd45f487b1e5286e0cb3b5760c1a3659301e4cbff29e1efcb47",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "black",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "stove",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "stove",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_026",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "5d5d906e05411534618136c4e7c5eb83732f6ae54ef9478738a40348bdd4a39a",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "black",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "sink",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "right_of",
+          "reference": "sink",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "sink reflecting part of the room",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "sink",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "sink",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_027",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "f5a7a050b99296dcaa2b3cde7e6713b6a202855ce7339429de7fc6271ace3c57",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "image",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "a small table",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "television",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "center of the table",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_028",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "85400465f88bbdb7d6c2ece9b971a43e1931350f6d473711d291b9dc602cf58b",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "blue",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "dressing table",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "dressing table",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "in_front_of",
+          "reference": "dressing table",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_029",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "598a21cb8f90dee84a8910a17e9caa7b31ce0db293541a1d51ff2c62178bd245",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_030",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "acaef62f6e7ca15e7bfa712de12ee314800e8fb7df096f45eae10207f46a2efc",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "behind",
+          "reference": "unknown",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "in_front_of",
+          "reference": "book stack",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "on_top_of",
+          "reference": "book stack",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_031",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6a55ebc4ba5ba94461578003c2e45ee1a45f95e1e10942bf82df4cba75b0d6c2",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_032",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "80d41461a4e9630fabd15c0a3b746a56b43b8562676a2fc7304e8320d2f06472",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "below",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "red suitcase",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_033",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "14517bddd6aa31f449a1bda5caa878eb0f0e482725713c0822a51083e3648923",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "workbench",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "workbench",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_034",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "81ca823a591f8220a8a56f97e954fdb5d1b158214aa6c1889a41526ff307df83",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "blue",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wood",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_035",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "4f8d1b50f712d339536d16481ebd554954cadc76db13b3000fd2afdb38a5ce6a",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "black",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "above",
+          "reference": "countertop and another further up",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "countertop is painted white",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_036",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "763ba88e25ac68dafde67159815c822825abb173173955ea3610e27e0c63b275",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "bed",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_037",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "71354df4141f631d3f3687ae0b4f7753ef68832171f691a3b5587c1e3a3575b2",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_038",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "67e54b01912d2bc02b4d51d7122bd87c53c1e8693240819b5eede1300a322eb3",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_039",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "bd5cb46c5f4d1533f6f02008c51e0571c3e5df5638b7b04fec1307818dd35058",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "metal",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "is_open": {
+          "name": "is_open",
+          "value": "true",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "keyboard",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "keyboard",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "notebook",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "in_front_of",
+          "reference": "keyboard",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_040",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "3fdacfbf3c9ab7f0dcfaae744ad3155a6937bebbd8b22ccb7dddc7e048a0c31c",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "dining area",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "bed",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "ceiling",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_041",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "dc9dbdc25b65abd07eb59f954827db0d5d28600a5b1a4b87918b95067b7b26eb",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_042",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "fea2731fb11b0b329487a4b0cf75a53781098893a8e7d28c5af9361999e9a026",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "bed",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "nightstand",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_043",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "bbe58d76356963bbee99a687241609e9dfa5413f94a4ac43d0f4146b9452cea5",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_044",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "a78451f8a12aa854fdfc680e82e781107273250175d4c31c7f990eda73289616",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "above",
+          "reference": "countertop to the left",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "microwave",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "sink",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_045",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "9ce63a1731d825b7271b6e35e3046cd5af7687dc5359b004cda5ae6fd40fd1b8",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "black",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "keyboard",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "in_front_of",
+          "reference": "monitor",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_046",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "67ead024af0f8babea12b4e44e9e1e145be36b8c7a98215244b871ee0c6036cc",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_047",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6b7c44358abef0b08916b4283d3b903a1475bca762d01c1926c3831b3e3fb8b1",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "is_open": {
+          "name": "is_open",
+          "value": "true",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "imac",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "imac",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "imac is wooden",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "in_front_of",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_048",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "ccb8c5157e499d188fe058ba292d29380bcad668c9e666f1321d423eecf5b2d9",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "metal",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "above",
+          "reference": "machines",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_049",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "e5a1c996b37e0c7a62f8f9ca4f278a35af48e7fb8c49c8df06aa74ab0bb50c8a",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_050",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6149b08fc4722a212398763687773da81540118431cba23892c81bbcc7d2e5b7",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "black",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "metal",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "tanks",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_051",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "f9f27148c058915161431902e8ecba2d76bb10753a4be6bde67464e0c10bd319",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_052",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "1e90460883f4c1fbdcbb06c9690c7e4b09b0b8fc3b5a79044a6d905d5472d56d",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "above",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_053",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "58ce28695410c67e588cae15cc72c6c10736ba2da0636d89b4f3076c5a10bd5f",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_054",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "c430053e6d58a07b981e2370b56cab73dc5aefbc67b28eb4f3d58cbc16dfd1fb",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_055",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "23075bab03559591bce4562a52dbd331b224867def8743c1abb1e2da8e1b0492",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "blue",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "leather",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "couch",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "fireplace",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "against_the_wall",
+          "reference": "unknown",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_056",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6dca2e9a2321317b7e1cab6d8188a8a0dda78172bb8bf3bdbacbfbf5cacef23d",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "fabric",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "next_to",
+          "reference": "it is a white fluffy cushion",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_057",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "4165d7567ce1afa5d79f8f205d4d79faf48f884e63120d34b4827c5b3084a75c",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_058",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "7a2a3889d2cadb1c6a6baedeeaea91dce80bea8c38fbbd84a148fec5000ce533",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_059",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "2587661a2f10fa8cec31ec22eca151ab2f523b47a2397e1a7391c7f84d452cc4",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_060",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "77cb3d7d7272db10927541c41a4d136c5d7c4acb4c7e499ceecde6d71e4a2f5f",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_061",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "2e5ff62607d702345220cb7e5015f2dce53d51d51a34684a71e64b416e497034",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "sofa",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_062",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "eb02d2b942ba8ae4359e880d8120d7fd5b35e369f6dd4055b9da548d7938b80b",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "above",
+          "reference": "sink",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "mirror",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_063",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "1ce92650b00f8b9eb530c17205c03c626495ba00527adfd2761d3f7890bbc717",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wood",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_064",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "a90abbe1a7eaebb0f793845889fdc70627d5f8fe94fa6dcfcb3c3f20a729ef75",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wood",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "has_glass_door": {
+          "name": "has_glass_door",
+          "value": "true",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "above",
+          "reference": "unknown",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "on_top_of",
+          "reference": "fireplace mantle",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "against_the_wall",
+          "reference": "on the left side of the image",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_065",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "a1cdfeac22828e8aabc6b2a1cd874cf0560b18c4743dd6b40e9a8a3311b83009",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "white",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "dining area",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "bench",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "dining area",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_066",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "4c8a291448f047acd37f0fc7fc29078134a8f9acdf528da59752966dee404b3a",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "black",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "tall",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "window",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "mannequin",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "in_front_of",
+          "reference": "bookshelf",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_067",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "2d7dddf0c43dda9e724f1b7e7d688293fdb09b56d69565f805d3b147e1e66b1b",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "is_open": {
+          "name": "is_open",
+          "value": "true",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "image",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "shelving unit",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "that",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_068",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6905f8f1d5e27d2048d13f7c333409cd2efc0a0ecc7baac758f99e4a32e922c8",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "white",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "shelf",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "it is another small figurine or statue",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_069",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "fac5dbe11af92537d65acb8a0fc7f3d4688878747d72c783583e200064ada1a8",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_070",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "8233da5acade7b1cb0b1998171e289e86f3ded396d0057f82b2c78a26c526050",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_071",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "be2d33fbdc365fb34e11addbe3c23809c15cc298b33377fbeee5a7204cc88dc4",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_072",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "4711204471f4bb2777e99d65ccc6bd3c89eb6cc8027058bd52d691f503bf0540",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wood",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_073",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "4df8db23e554d5a8c196e9dec2ff7ae17e7e03e4214c81a724c479e6cc6c67a6",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "has_drawer": {
+          "name": "has_drawer",
+          "value": "true",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "on_top_of",
+          "reference": "a dark wooden cabinet or desk",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_074",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "af4dfc1c0e73570cee6ed1e84cbb7f6db1c436a1aaad4c9aeefd4f79797bd0d4",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_075",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "bd1c59904420b7de82591881e033e257fdbd2025d80647c85b8977593bf78223",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "near",
+          "reference": "left side of the image",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "first one",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "against_the_wall",
+          "reference": "unknown",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_076",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "b26c7133edf9bd6763c9df53655d5dacce4bfba5bbeeac7894e258e40314cee8",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "printer",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "counter",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "monitor",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_077",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "243a714354703d2368860a70f81f9841e7ff62f57e392d18771912b64967449f",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "table",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_078",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "ff0a1f64d6aa6dd11427afec1bd5e4bf58349c5f05a918a45d2dd2dad6681bf7",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "white",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "staircase",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "stairs",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_079",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "d87dd2e0c5f0f7bc4268fbb5ece39705d04cd529090e0f4c27ee5c29098461f3",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "is_open": {
+          "name": "is_open",
+          "value": "false",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "bed",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_080",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "8d25d68258a52b15af49266bb96e15bef15ddf95ab2ebd091f64f17a362672cb",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_081",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "a7a7755ec5998c4853829d932af817ffa1dcf93af8b7e8f85b1d1d996d2aa5f0",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_082",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "149ea38c312ecdab0fbe3622924109621dc0289951dae2d71db7c0ba5e775076",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "metal",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "laptop",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "keyboard",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "behind",
+          "reference": "laptop",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_083",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "3190a1290c4f60899f497212b89c8f79f034f07f03940cb341e5b4ea195e0a0e",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "above",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_084",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6bb2e55cd6154e65e2633b677308f12cf717ab8180deb9a31434e97a83ccfec5",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "television",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "television",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "on_top_of",
+          "reference": "cabinet",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_085",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "016892451ca94492b9b21e2dc5a80488685be372e9b2e650c34478b821978764",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "oven",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "and below the oven",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "oven",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_086",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "6702f1babd282abc5478818b35b2b965956cfd2ff0cc845839f7acf720f92eb1",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_087",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "404a0e8f4cec2881414ce0b6c36ccf54d93a05056c42edefa1c1a98f53abb155",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_088",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "2e96279bed8eac8aa8bc4415459f5feb380e95ca152fb69211e72a5920f4e9b0",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "green",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "near",
+          "reference": "dining area",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_089",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "13f7b8283e59cccb4aebcd9fdf1d07dfb1e8fb3bb07e2b519b98ae9f840de6cc",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "desk",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_090",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "93fa501105d21a4b4227045d4a927d064aab52ee88e1362c9a15a71b0f13538d",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_091",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "856f1cd0f146e8b2b1c5e0fa9b48aa78f28efe3865ede23765f0e4f19dc09355",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_092",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "f96debf390c5fa1497807ae81e07f79945a649d9d2087d11ad57ada001bf14d4",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_093",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "016d91be3df71113760373bcfbaa1c3de78d686cc2e568354b89b7f83cf2d38b",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_094",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "28d6184ae4cde8c15937f74eef6cb103d63d7f29f9779437c5979135fad75615",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "low",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "washing machine",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "countertop and lower cabinets below",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "unknown",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "countertop",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_095",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "a247776259e38dda230cf68232ba206d31d37f5781461e65dd78ca0999143dc6",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "bed",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "above",
+          "reference": "bed",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "below",
+          "reference": "window",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_096",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "d3776e46ca5160bde633c54c546b0a63cb2a99c3b99e2eb3d56fbe24f7cf4b66",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "small",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "left_of",
+          "reference": "dresser",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "near",
+          "reference": "door",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "on_top_of",
+          "reference": "it",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_097",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "a315ebdfcdde4d6f5683c4803831e5c298d977e05149eb59dd7df1f29e20c73c",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {},
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_098",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "c7513d2342b74f0d31886e6eb4af0a9c1a75cccf6540a51cc59185ec5235e647",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "green",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "vanity table",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "next_to",
+          "reference": "vanity table",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "in_front_of",
+          "reference": "vanity table",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_099",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "1f9c40e6df6a0e05358bbefde6030efbe09fb4c9a648ad4f31fd6ed1fe13464b",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "red",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "metal",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_100",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "c3e96a0ea08aee48906148b2f670e669e467f91aab1a7c8bed9bca7a2fd1c987",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "white",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "metal",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "on_top_of",
+          "reference": "refrigerator",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_101",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "4204d8210f2430227e3e2837e014f3b255a3fe0a2fa23972b5628d73160908f2",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "tan",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "wooden",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    },
+    {
+      "obj_id": "scene_102",
+      "category": "scene",
+      "bbox": null,
+      "image_id": "0e39ce515f45c73d9b0de11d3f750a16ae3890188c60a982251dcf9b4cf4a736",
+      "timestep_first": 0,
+      "timestep_last": 0,
+      "attributes": {
+        "color": {
+          "name": "color",
+          "value": "white",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "material": {
+          "name": "material",
+          "value": "metal",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "size": {
+          "name": "size",
+          "value": "large",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        },
+        "has_glass_door": {
+          "name": "has_glass_door",
+          "value": "true",
+          "certainty": "medium",
+          "source": "vlm_reasoning",
+          "timestep": 0
+        }
+      },
+      "spatial_relations": [
+        {
+          "relation": "right_of",
+          "reference": "oven",
+          "certainty": "medium",
+          "timestep": 0
+        },
+        {
+          "relation": "on_top_of",
+          "reference": "cabinet",
+          "certainty": "medium",
+          "timestep": 0
+        }
+      ],
+      "is_target_candidate": false,
+      "alignment_score": -1.0
+    }
+  ],
+  "category_index": {
+    "scene": [
+      "scene_001",
+      "scene_002",
+      "scene_003",
+      "scene_004",
+      "scene_005",
+      "scene_006",
+      "scene_007",
+      "scene_008",
+      "scene_009",
+      "scene_010",
+      "scene_011",
+      "scene_012",
+      "scene_013",
+      "scene_014",
+      "scene_015",
+      "scene_016",
+      "scene_017",
+      "scene_018",
+      "scene_019",
+      "scene_020",
+      "scene_021",
+      "scene_022",
+      "scene_023",
+      "scene_024",
+      "scene_025",
+      "scene_026",
+      "scene_027",
+      "scene_028",
+      "scene_029",
+      "scene_030",
+      "scene_031",
+      "scene_032",
+      "scene_033",
+      "scene_034",
+      "scene_035",
+      "scene_036",
+      "scene_037",
+      "scene_038",
+      "scene_039",
+      "scene_040",
+      "scene_041",
+      "scene_042",
+      "scene_043",
+      "scene_044",
+      "scene_045",
+      "scene_046",
+      "scene_047",
+      "scene_048",
+      "scene_049",
+      "scene_050",
+      "scene_051",
+      "scene_052",
+      "scene_053",
+      "scene_054",
+      "scene_055",
+      "scene_056",
+      "scene_057",
+      "scene_058",
+      "scene_059",
+      "scene_060",
+      "scene_061",
+      "scene_062",
+      "scene_063",
+      "scene_064",
+      "scene_065",
+      "scene_066",
+      "scene_067",
+      "scene_068",
+      "scene_069",
+      "scene_070",
+      "scene_071",
+      "scene_072",
+      "scene_073",
+      "scene_074",
+      "scene_075",
+      "scene_076",
+      "scene_077",
+      "scene_078",
+      "scene_079",
+      "scene_080",
+      "scene_081",
+      "scene_082",
+      "scene_083",
+      "scene_084",
+      "scene_085",
+      "scene_086",
+      "scene_087",
+      "scene_088",
+      "scene_089",
+      "scene_090",
+      "scene_091",
+      "scene_092",
+      "scene_093",
+      "scene_094",
+      "scene_095",
+      "scene_096",
+      "scene_097",
+      "scene_098",
+      "scene_099",
+      "scene_100",
+      "scene_101",
+      "scene_102"
+    ]
+  },
+  "id_counter": {
+    "scene": 102
+  },
+  "target_facts": {
+    "category": "",
+    "known_attributes": {},
+    "negative_attributes": {},
+    "source_history": [],
+    "fact_provenance": {},
+    "asked_questions": []
+  }
+}

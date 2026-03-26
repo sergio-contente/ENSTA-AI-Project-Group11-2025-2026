@@ -1,0 +1,162 @@
+[
+  {
+    "mode": "global_kg",
+    "calls": 1,
+    "accuracy_pct": 32.67,
+    "phi_binary_c1_pct": 28.29,
+    "phi_coin_c1_pct": 2.46,
+    "abstention_rate_pct": 89.44,
+    "overclaim_rate_pct": 8.9,
+    "note": ""
+  },
+  {
+    "mode": "global_kg_entropy",
+    "calls": 1,
+    "accuracy_pct": 49.2,
+    "phi_binary_c1_pct": 30.68,
+    "phi_coin_c1_pct": 12.82,
+    "abstention_rate_pct": 52.79,
+    "overclaim_rate_pct": 28.77,
+    "note": ""
+  },
+  {
+    "mode": "kg",
+    "calls": 2,
+    "accuracy_pct": 32.07,
+    "phi_binary_c1_pct": 28.69,
+    "phi_coin_c1_pct": 1.46,
+    "abstention_rate_pct": 91.63,
+    "overclaim_rate_pct": 6.85,
+    "note": "fixed heuristics"
+  },
+  {
+    "mode": "kg_threshold",
+    "calls": 2,
+    "accuracy_pct": 32.07,
+    "phi_binary_c1_pct": 29.68,
+    "phi_coin_c1_pct": 2.66,
+    "abstention_rate_pct": 93.03,
+    "overclaim_rate_pct": 5.48,
+    "note": "tau swept on val + fixed KG heuristics"
+  },
+  {
+    "mode": "raw",
+    "calls": 1,
+    "accuracy_pct": 53.59,
+    "phi_binary_c1_pct": 21.71,
+    "phi_coin_c1_pct": 12.68,
+    "abstention_rate_pct": 27.89,
+    "overclaim_rate_pct": 54.11,
+    "note": "no gating"
+  },
+  {
+    "mode": "raw_two_pass",
+    "calls": 3,
+    "accuracy_pct": 51.39,
+    "phi_binary_c1_pct": 11.16,
+    "phi_coin_c1_pct": null,
+    "abstention_rate_pct": 17.93,
+    "overclaim_rate_pct": 66.44,
+    "note": "compute control (no KG)"
+  },
+  {
+    "mode": "threshold_tau=0.05",
+    "calls": 1,
+    "accuracy_pct": 40.04,
+    "phi_binary_c1_pct": 30.28,
+    "phi_coin_c1_pct": 6.77,
+    "abstention_rate_pct": 74.7,
+    "overclaim_rate_pct": 15.75,
+    "note": "tau=0.05 swept on val"
+  },
+  {
+    "mode": "threshold_tau=0.10",
+    "calls": 1,
+    "accuracy_pct": 49.8,
+    "phi_binary_c1_pct": 33.27,
+    "phi_coin_c1_pct": 13.21,
+    "abstention_rate_pct": 55.78,
+    "overclaim_rate_pct": 23.97,
+    "note": "tau=0.10 swept on val"
+  },
+  {
+    "mode": "threshold_tau=0.15",
+    "calls": 1,
+    "accuracy_pct": 54.38,
+    "phi_binary_c1_pct": 31.08,
+    "phi_coin_c1_pct": 15.67,
+    "abstention_rate_pct": 41.04,
+    "overclaim_rate_pct": 35.62,
+    "note": "tau=0.15 swept on val"
+  },
+  {
+    "mode": "threshold_tau=0.20",
+    "calls": 1,
+    "accuracy_pct": 53.98,
+    "phi_binary_c1_pct": 23.31,
+    "phi_coin_c1_pct": 13.28,
+    "abstention_rate_pct": 29.68,
+    "overclaim_rate_pct": 50.68,
+    "note": "tau=0.20 swept on val"
+  },
+  {
+    "mode": "threshold_tau=0.25",
+    "calls": 1,
+    "accuracy_pct": 53.39,
+    "phi_binary_c1_pct": 21.51,
+    "phi_coin_c1_pct": 12.48,
+    "abstention_rate_pct": 28.09,
+    "overclaim_rate_pct": 54.11,
+    "note": "tau=0.25 swept on val"
+  },
+  {
+    "mode": "threshold_tau=0.30",
+    "calls": 1,
+    "accuracy_pct": 53.59,
+    "phi_binary_c1_pct": 21.71,
+    "phi_coin_c1_pct": 12.68,
+    "abstention_rate_pct": 27.89,
+    "overclaim_rate_pct": 54.11,
+    "note": "tau=0.30 swept on val"
+  },
+  {
+    "mode": "threshold_tau=0.35",
+    "calls": 1,
+    "accuracy_pct": 53.59,
+    "phi_binary_c1_pct": 21.71,
+    "phi_coin_c1_pct": 12.68,
+    "abstention_rate_pct": 27.89,
+    "overclaim_rate_pct": 54.11,
+    "note": "tau=0.35 swept on val"
+  },
+  {
+    "mode": "two_pass_kg",
+    "calls": 3,
+    "accuracy_pct": 42.23,
+    "phi_binary_c1_pct": 24.1,
+    "phi_coin_c1_pct": 6.24,
+    "abstention_rate_pct": 59.36,
+    "overclaim_rate_pct": 32.19,
+    "note": "fixed heuristics"
+  },
+  {
+    "mode": "two_pass_kg_entropy",
+    "calls": 3,
+    "accuracy_pct": 48.61,
+    "phi_binary_c1_pct": 23.9,
+    "phi_coin_c1_pct": 10.29,
+    "abstention_rate_pct": 43.43,
+    "overclaim_rate_pct": 42.47,
+    "note": "fixed heuristics"
+  },
+  {
+    "mode": "two_pass_kg_relaxed",
+    "calls": 3,
+    "accuracy_pct": 51.0,
+    "phi_binary_c1_pct": 19.12,
+    "phi_coin_c1_pct": 10.49,
+    "abstention_rate_pct": 30.08,
+    "overclaim_rate_pct": 55.48,
+    "note": "fixed heuristics"
+  }
+]

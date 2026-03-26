@@ -1,0 +1,9 @@
+mode,overclaim_rate_pct,underclaim_rate_pct,uncertain_when_uncertain_pct,certain_when_certain_pct,phi_c1_pct,phi_c05_pct
+kg,6.85,91.01,93.15,8.99,28.69,30.38
+kg_threshold,5.48,92.42,94.52,7.58,29.68,30.88
+raw,54.11,20.51,45.89,79.49,21.71,37.65
+raw_two_pass,66.44,11.8,32.88,87.92,11.16,31.27
+threshold,23.97,51.4,76.03,48.6,32.87,40.54
+two_pass_kg,32.19,55.9,67.81,44.1,24.1,33.17
+two_pass_kg_entropy,42.47,37.64,57.53,62.36,23.9,36.25
+two_pass_kg_relaxed,55.48,24.16,44.52,75.84,19.12,35.06

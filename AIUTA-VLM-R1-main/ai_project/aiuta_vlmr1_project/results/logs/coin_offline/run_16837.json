@@ -1,0 +1,616 @@
+{
+  "config": "configs/vlmr1_coin.yaml",
+  "mode": "offline",
+  "metrics": {
+    "val_seen": {
+      "SR": 0.0,
+      "SPL": 0.0,
+      "NQ": 0.0,
+      "num_episodes": 40,
+      "num_successful": 0,
+      "num_failed": 40,
+      "avg_path_length": 0.0,
+      "avg_detections_per_episode": 0.0,
+      "avg_kg_nodes_per_episode": 0.0,
+      "avg_inference_time_per_episode": 0.0
+    },
+    "val_seen_synonyms": {
+      "SR": 0.0,
+      "SPL": 0.0,
+      "NQ": 0.0,
+      "num_episodes": 20,
+      "num_successful": 0,
+      "num_failed": 20,
+      "avg_path_length": 0.0,
+      "avg_detections_per_episode": 0.0,
+      "avg_kg_nodes_per_episode": 0.0,
+      "avg_inference_time_per_episode": 0.0
+    },
+    "val_unseen": {
+      "SR": 0.0,
+      "SPL": 0.0,
+      "NQ": 0.0,
+      "num_episodes": 10,
+      "num_successful": 0,
+      "num_failed": 10,
+      "avg_path_length": 0.0,
+      "avg_detections_per_episode": 0.0,
+      "avg_kg_nodes_per_episode": 0.0,
+      "avg_inference_time_per_episode": 0.0
+    },
+    "overall": {
+      "SR": 0.0,
+      "SPL": 0.0,
+      "NQ": 0.0,
+      "num_episodes": 70,
+      "num_successful": 0,
+      "num_failed": 70,
+      "avg_path_length": 0.0,
+      "avg_detections_per_episode": 0.0,
+      "avg_kg_nodes_per_episode": 0.0,
+      "avg_inference_time_per_episode": 0.0
+    }
+  },
+  "episodes": [
+    {
+      "episode_id": "1110",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1111",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1112",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1113",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1114",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1115",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1116",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1117",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1118",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1119",
+      "split": "val_seen",
+      "target_category": "wardrobe",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1130",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1131",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1132",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1133",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1134",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1135",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1136",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1137",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1138",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1139",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1140",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1141",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1142",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1143",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1144",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1145",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1146",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1147",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1148",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1149",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1160",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1161",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1162",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1163",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1164",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1165",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1166",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1167",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1168",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "1169",
+      "split": "val_seen",
+      "target_category": "cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "656",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "657",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "658",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "659",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "660",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "661",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "662",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "663",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "664",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "665",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "666",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "667",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "668",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "669",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "670",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "671",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "672",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "673",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "674",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "675",
+      "split": "val_seen_synonyms",
+      "target_category": "kitchen cabinet",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "961",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "962",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "963",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "964",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "965",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "966",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "967",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "968",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "969",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    },
+    {
+      "episode_id": "970",
+      "split": "val_unseen",
+      "target_category": "mirror",
+      "success": false,
+      "num_questions": 0,
+      "num_kg_nodes": 0
+    }
+  ]
+}

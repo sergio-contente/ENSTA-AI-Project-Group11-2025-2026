@@ -1,0 +1,19 @@
+# IDKVQA: use --mode two_pass_kg for strict KG hybrid (IDK when attr_type missing from KG broad),
+# --mode two_pass_kg_relaxed for relaxed fallback (trust VLM when confident), and
+# --mode two_pass_kg_entropy for relaxed fallback gated by entropy threshold.
+detector_type: vlmr1
+questioner_type: two_pass
+trigger_type: kg
+model:
+  model_id: omlab/VLM-R1-Qwen2.5VL-3B-OVD-0321
+  processor_id: Qwen/Qwen2.5-VL-3B-Instruct
+  torch_dtype: bfloat16
+  device_map: auto
+  max_new_tokens: 256
+idkvqa_eval:
+  entropy_threshold: 0.09
+  abstention_rule: entropy_above_tau_to_idk
+  detection_max_new_tokens: 512
+  vqa_max_new_tokens: 256
+output_dir: ./results
+seed: 42

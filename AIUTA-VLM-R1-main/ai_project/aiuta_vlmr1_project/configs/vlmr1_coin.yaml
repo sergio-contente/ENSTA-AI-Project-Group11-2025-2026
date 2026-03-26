@@ -1,0 +1,20 @@
+detector_type: vlmr1
+questioner_type: vlmr1
+trigger_type: kg
+model:
+  model_id: omlab/VLM-R1-Qwen2.5VL-3B-OVD-0321
+  processor_id: Qwen/Qwen2.5-VL-3B-Instruct
+  torch_dtype: bfloat16
+  max_new_tokens: 1024
+  temperature: 0.0
+kg:
+  certainty_threshold: 0.5
+  max_instances_per_category: 20
+  use_llm_fallback: false
+trigger:
+  tau_stop: 0.6
+  tau_skip: 0.0
+  max_interaction_rounds: 5
+  max_questions_per_episode: 10
+output_dir: ./results/vlmr1_kg
+seed: 42

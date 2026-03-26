@@ -1,0 +1,90 @@
+[
+  {
+    "mode": "kg",
+    "avg_num_model_calls": 2,
+    "avg_num_detector_calls": 1,
+    "avg_num_questioner_calls": 0,
+    "avg_num_trigger_calls": 0,
+    "avg_num_questions_asked": 1,
+    "avg_num_kg_nodes": 2.2669,
+    "avg_total_latency_sec": 3.5369,
+    "avg_detector_latency_sec": 3.2387
+  },
+  {
+    "mode": "kg_threshold",
+    "avg_num_model_calls": 2,
+    "avg_num_detector_calls": 1,
+    "avg_num_questioner_calls": 0,
+    "avg_num_trigger_calls": 0,
+    "avg_num_questions_asked": 1,
+    "avg_num_kg_nodes": 2.7809,
+    "avg_total_latency_sec": 3.9379,
+    "avg_detector_latency_sec": 3.4881
+  },
+  {
+    "mode": "raw",
+    "avg_num_model_calls": 1,
+    "avg_num_detector_calls": 0,
+    "avg_num_questioner_calls": 0,
+    "avg_num_trigger_calls": 0,
+    "avg_num_questions_asked": 1,
+    "avg_num_kg_nodes": null,
+    "avg_total_latency_sec": 0.3029,
+    "avg_detector_latency_sec": 0.0
+  },
+  {
+    "mode": "raw_two_pass",
+    "avg_num_model_calls": 3,
+    "avg_num_detector_calls": 1,
+    "avg_num_questioner_calls": 0,
+    "avg_num_trigger_calls": 0,
+    "avg_num_questions_asked": 2,
+    "avg_num_kg_nodes": null,
+    "avg_total_latency_sec": 4.2051,
+    "avg_detector_latency_sec": 3.2463
+  },
+  {
+    "mode": "threshold",
+    "avg_num_model_calls": 1,
+    "avg_num_detector_calls": 0,
+    "avg_num_questioner_calls": 0,
+    "avg_num_trigger_calls": 0,
+    "avg_num_questions_asked": 1,
+    "avg_num_kg_nodes": null,
+    "avg_total_latency_sec": 0.2793,
+    "avg_detector_latency_sec": 0.0
+  },
+  {
+    "mode": "two_pass_kg",
+    "avg_num_model_calls": 3,
+    "avg_num_detector_calls": 1,
+    "avg_num_questioner_calls": 1,
+    "avg_num_trigger_calls": 0,
+    "avg_num_questions_asked": 1,
+    "avg_num_kg_nodes": 10.8546,
+    "avg_total_latency_sec": 5.2768,
+    "avg_detector_latency_sec": 3.1284
+  },
+  {
+    "mode": "two_pass_kg_entropy",
+    "avg_num_model_calls": 3,
+    "avg_num_detector_calls": 1,
+    "avg_num_questioner_calls": 1,
+    "avg_num_trigger_calls": 0,
+    "avg_num_questions_asked": 1,
+    "avg_num_kg_nodes": 10.8546,
+    "avg_total_latency_sec": 5.3639,
+    "avg_detector_latency_sec": 3.1828
+  },
+  {
+    "mode": "two_pass_kg_relaxed",
+    "avg_num_model_calls": 3,
+    "avg_num_detector_calls": 1,
+    "avg_num_questioner_calls": 1,
+    "avg_num_trigger_calls": 0,
+    "avg_num_questions_asked": 1,
+    "avg_num_kg_nodes": 10.8546,
+    "avg_total_latency_sec": 5.431,
+    "avg_detector_latency_sec": 3.2229
+  }
+]

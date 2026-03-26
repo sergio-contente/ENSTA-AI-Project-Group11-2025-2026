@@ -1,0 +1,98 @@
+[
+  {
+    "mode": "kg",
+    "accuracy_pct": 32.07,
+    "yes_accuracy_pct": 11.34,
+    "no_accuracy_pct": 1.85,
+    "idk_accuracy_pct": 93.15,
+    "abstention_rate_pct": 91.63,
+    "coverage_pct": 8.37,
+    "avg_latency_sec": 3.5369,
+    "avg_total_latency_sec": 3.5369,
+    "avg_num_model_calls": 2
+  },
+  {
+    "mode": "kg_threshold",
+    "accuracy_pct": 32.07,
+    "yes_accuracy_pct": 9.79,
+    "no_accuracy_pct": 2.47,
+    "idk_accuracy_pct": 94.52,
+    "abstention_rate_pct": 93.03,
+    "coverage_pct": 6.97,
+    "avg_latency_sec": 3.9379,
+    "avg_total_latency_sec": 3.9379,
+    "avg_num_model_calls": 2
+  },
+  {
+    "mode": "raw",
+    "accuracy_pct": 53.59,
+    "yes_accuracy_pct": 71.65,
+    "no_accuracy_pct": 38.89,
+    "idk_accuracy_pct": 45.89,
+    "abstention_rate_pct": 27.89,
+    "coverage_pct": 72.11,
+    "avg_latency_sec": 0.3029,
+    "avg_total_latency_sec": 0.3029,
+    "avg_num_model_calls": 1
+  },
+  {
+    "mode": "raw_two_pass",
+    "accuracy_pct": 51.39,
+    "yes_accuracy_pct": 72.68,
+    "no_accuracy_pct": 42.59,
+    "idk_accuracy_pct": 32.88,
+    "abstention_rate_pct": 17.93,
+    "coverage_pct": 82.07,
+    "avg_latency_sec": 4.2051,
+    "avg_total_latency_sec": 4.2051,
+    "avg_num_model_calls": 3
+  },
+  {
+    "mode": "threshold",
+    "accuracy_pct": 48.21,
+    "yes_accuracy_pct": 57.73,
+    "no_accuracy_pct": 11.73,
+    "idk_accuracy_pct": 76.03,
+    "abstention_rate_pct": 58.57,
+    "coverage_pct": 41.43,
+    "avg_latency_sec": 0.2793,
+    "avg_total_latency_sec": 0.2793,
+    "avg_num_model_calls": 1
+  },
+  {
+    "mode": "two_pass_kg",
+    "accuracy_pct": 42.23,
+    "yes_accuracy_pct": 43.81,
+    "no_accuracy_pct": 17.28,
+    "idk_accuracy_pct": 67.81,
+    "abstention_rate_pct": 59.36,
+    "coverage_pct": 40.64,
+    "avg_latency_sec": 5.2768,
+    "avg_total_latency_sec": 5.2768,
+    "avg_num_model_calls": 3
+  },
+  {
+    "mode": "two_pass_kg_entropy",
+    "accuracy_pct": 48.61,
+    "yes_accuracy_pct": 62.37,
+    "no_accuracy_pct": 24.07,
+    "idk_accuracy_pct": 57.53,
+    "abstention_rate_pct": 43.43,
+    "coverage_pct": 56.57,
+    "avg_latency_sec": 5.3639,
+    "avg_total_latency_sec": 5.3639,
+    "avg_num_model_calls": 3
+  },
+  {
+    "mode": "two_pass_kg_relaxed",
+    "accuracy_pct": 51.0,
+    "yes_accuracy_pct": 68.04,
+    "no_accuracy_pct": 36.42,
+    "idk_accuracy_pct": 44.52,
+    "abstention_rate_pct": 30.08,
+    "coverage_pct": 69.92,
+    "avg_latency_sec": 5.431,
+    "avg_total_latency_sec": 5.431,
+    "avg_num_model_calls": 3
+  }
+]

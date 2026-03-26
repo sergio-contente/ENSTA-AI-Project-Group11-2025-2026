@@ -1,0 +1,21 @@
+# Slurm / cluster log files (may contain secrets from debug output)
+**/results/logs/*.err
+**/results/logs/*.out
+**/logs/*.err
+**/logs/*.out
+
+# Environment files
+.hf_env
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# HuggingFace cache
+hf_cache/
+
+# pytest cache
+**/.pytest_cache/*

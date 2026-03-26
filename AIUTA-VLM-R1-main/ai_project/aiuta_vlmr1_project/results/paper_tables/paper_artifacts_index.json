@@ -1,0 +1,8 @@
+{
+  "primary_benchmark": "IDKVQA_offline",
+  "artifacts": {
+    "main_benchmark": "results/paper_tables/paper_main_benchmark.csv",
+    "reliability": "results/paper_tables/paper_reliability.csv",
+    "cost": "results/paper_tables/paper_cost.csv"
+  }
+}

@@ -1,0 +1,9 @@
+mode,accuracy_pct,yes_accuracy_pct,no_accuracy_pct,idk_accuracy_pct,abstention_rate_pct,coverage_pct,avg_latency_sec,avg_total_latency_sec,avg_num_model_calls
+kg,32.07,11.34,1.85,93.15,91.63,8.37,3.5369,3.5369,2
+kg_threshold,32.07,9.79,2.47,94.52,93.03,6.97,3.9379,3.9379,2
+raw,53.59,71.65,38.89,45.89,27.89,72.11,0.3029,0.3029,1
+raw_two_pass,51.39,72.68,42.59,32.88,17.93,82.07,4.2051,4.2051,3
+threshold,48.21,57.73,11.73,76.03,58.57,41.43,0.2793,0.2793,1
+two_pass_kg,42.23,43.81,17.28,67.81,59.36,40.64,5.2768,5.2768,3
+two_pass_kg_entropy,48.61,62.37,24.07,57.53,43.43,56.57,5.3639,5.3639,3
+two_pass_kg_relaxed,51.0,68.04,36.42,44.52,30.08,69.92,5.431,5.431,3
